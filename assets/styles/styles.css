@@ -1,0 +1,66 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Courgette&display=swap');
+
+body {
+    display: grid;
+    place-items: center;
+    margin: 0;
+}
+
+header {
+    width: 100vw;
+    font-size: 0.7em;
+    text-align: center;
+    font-family: 'Architects Daughter', cursive;
+    color: rgb(0, 0, 0);
+    text-shadow: 1px 1px 2px rgb(67, 227, 255);
+    
+}
+
+main {
+    width: 100vw;
+    margin: 0;
+    margin-top: 10vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#magicBall1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90vw;
+    height: 90vw;
+    background-color: #e0165962;
+    /*background: linear-gradient(152deg, rgba(0, 255, 38, 0.33) 0%, rgba(0, 212, 255, 0.33) 51%, rgba(240, 189, 255, 0.33) 75%);
+*/
+}
+
+#magicBall2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 85vw;
+    height: 85vw;
+    background-color: #ffe10062;
+    /*background: linear-gradient(152deg, rgba(255, 171, 0, 0.33) 0%, rgba(239, 0, 255, 0.33) 51%, rgba(189, 255, 254, 0.33) 75%);
+*/
+}
+
+#magicBall3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 95vw;
+    height: 95vw;
+    background-color: #00e1ff62;
+    font-size: larger;
+    font-family: "Courgette", cursive;
+    font-size: 1.6em;
+    text-align: center;
+    font-weight: 300;
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 2px rgb(0, 0, 0);
+    /*background: linear-gradient(152deg, rgba(56, 255, 0, 0.33) 0%, rgba(255, 0, 0, 0.33) 51%, rgba(196, 0, 255, 0.33) 75%);*/
+}
